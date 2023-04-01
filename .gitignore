@@ -1,5 +1,4 @@
 *.vim
-*.json
 *.yml
 
 *.session
