@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+autopep8 = "*"
+bs4 = "*"
+requests = "*"
+selenium-wire = "*"
+selenium = "*"
+sanic = {extras = ["ext"], version = "*"}
+dataclass-wizard = "*"
+pyrogram = "*"
+tgcrypto = "*"
+schedule = "*"
+pyyaml = "*"
+sanic-httpauth = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
